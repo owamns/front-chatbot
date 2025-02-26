@@ -1,0 +1,70 @@
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración del entorno
+.env
+*.env
+
+# Archivos de registro
+*.log
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Caché de web assets en Flask
+instance/
+.webassets-cache
+
+# Reportes de cobertura y pruebas
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Documentación generada
+docs/_build/
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de instalación
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuraciones de IDEs
+.idea/
+.vscode/
+.spyderproject/
+.spyproject/
+
+# Otros
+*.pot
+*.mo
+*.spec
+*.manifest
+*.pid
+*.seed
+*.pid.lock
+*.sage.py
