@@ -5,10 +5,7 @@ from langchain.chains import RetrievalQA
 from langchain_community.vectorstores.supabase import SupabaseVectorStore
 from supabase import create_client
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
-from dotenv import load_dotenv
 import re
-
-load_dotenv()
 
 app = Flask(__name__)
 

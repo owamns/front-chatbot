@@ -1,0 +1,6 @@
+Flask
+langchain
+langchain_ollama
+langchain-community
+supabase
+fastembed
